@@ -1,0 +1,106 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+a {
+    color: inherit;
+}
+
+.jumbotron-fluid img {
+    width: 100%;
+}
+
+body {
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+header {
+    font-size: 1.25rem;
+    padding: 0;
+    background: #ebebeb;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#logo img{
+    height: 30px;
+    padding-left: 15px;
+}
+
+
+nav ul {
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between
+}
+
+nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav li.current {
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.heading {
+    text-align: center;
+    padding: 50px;
+}
+
+main {
+    background: #1e1f30;
+    color: #ebebeb;
+    height: 100%;
+    text-align: center;
+}
+
+
+#work-grid {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    border: 1px dotted black;
+    margin-bottom: 100px;
+}
+
+.grid-box {
+    background: gray;
+    height: 9rem;
+    width: 9rem;
+    margin: 6px;
+}
+
+.grid-box img {
+    width: 100%;
+}
+
+
+.grid-box:last-child{
+    background: #1e1f30;
+    color: #ebebeb;
+    text-align: center;
+    padding-top: 5%;
+    border: 1px solid #ebebeb;
+}
+
+footer {
+    font-size: .75rem;
+    font-weight: 600;
+    background: #ebebeb;
+    color: #1e1f30;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+

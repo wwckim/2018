@@ -99,22 +99,22 @@ main {
     flex-wrap: wrap;
 }
 
-#about img {
-    width: 100%;
-}
-
 #about .img-container {
-    width: 30%;
-    height: auto;
+    width: 20%;
     margin-right: 30px;
 }
 
-#about .title-container{
-    height: ;
+.title-container{
+    width: 50%;
+    text-decoration: underline;
+}
+
+#about .wrapper {
+    width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
 }
 
 .about-content, .toolkit-container {

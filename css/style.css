@@ -127,6 +127,44 @@ main {
     width: 100%;
 }
 
+#contact {
+    padding: 30px;
+    margin: 30px auto;
+    background: #ebebeb;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 30px auto;
+    width: 60%;
+    height: 70px;
+}
+
+.social img {
+    height: 100%;
+}
+
+
+button > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.date {
+    text-align: left;
+    font-style: italic;
+}
+
+.download {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download p {
+    margin: auto 0;
+}
+
 footer {
     font-size: .75rem;
     font-weight: 600;

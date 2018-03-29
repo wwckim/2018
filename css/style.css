@@ -94,6 +94,39 @@ main {
     border: 1px solid #ebebeb;
 }
 
+#about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about img {
+    width: 100%;
+}
+
+#about .img-container {
+    width: 30%;
+    height: auto;
+    margin-right: 30px;
+}
+
+#about .title-container{
+    height: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.about-content, .toolkit-container {
+    width: 75%;
+    margin: 30px auto;
+}
+
+
+#about img {
+    width: 100%;
+}
+
 footer {
     font-size: .75rem;
     font-weight: 600;

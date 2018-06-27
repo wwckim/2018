@@ -8,6 +8,11 @@ a {
     color: inherit;
 }
 
+.strong {
+    margin: 0;
+    font-weight: 600;
+}
+
 .jumbotron-fluid img {
     width: 100%;
 }

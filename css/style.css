@@ -1,7 +1,7 @@
 html {
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 a {
@@ -15,6 +15,10 @@ a {
 
 .jumbotron-fluid img {
     width: 100%;
+}
+
+section {
+    margin: 30px;
 }
 
 body {
@@ -98,6 +102,9 @@ main {
     width: 100%;
 }
 
+.grid-box:hover{
+    transform: scale(1.25);
+}
 
 .grid-box:last-child{
     background: #1e1f30;
@@ -156,6 +163,7 @@ main {
 
 .social img {
     height: 100%;
+    width: auto;
 }
 
 
@@ -165,18 +173,20 @@ button > a {
 }
 
 .date {
-    text-align: left;
     font-style: italic;
-    margin-bottom: 50px;
 }
 
 .download {
+    text-align: left;
+    width: 80%;
+    margin: auto;
     display: flex;
     justify-content: space-between;
 }
 
 .download p {
     margin: auto 0;
+    padding: 5px;
 }
 
 footer {
@@ -189,9 +199,16 @@ footer {
     margin: 0;
 }
 
+
+
+/*------JAVASCRIPT CSS------*/
+
 .redbg {
     background: red;
 }
+
+
+
 
 /*------MEDIA QUERIES-------*/
 
